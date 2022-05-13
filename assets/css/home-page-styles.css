@@ -50,10 +50,33 @@ body::before {
   position: relative;
 }
 
+.s-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .s-card__backgroud {
   width: 100%;
   height: 100%;
   object-fit: cover;
   position: absolute;
   opacity: 1;
+}
+
+.s-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+.s-card__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
 }
