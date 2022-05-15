@@ -52,7 +52,18 @@ body::before {
   transition: filter .5s ease-in-out;
 }
 
+<<<<<<< HEAD
 .s-card__background {
+=======
+.s-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.s-card__backgroud {
+>>>>>>> 7dcffe80d962c01da63b59bfea4c38556b2955b9
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -154,4 +165,20 @@ body[id^='spider-man-'] .s-card:not(.s-card--hovered) {
 
 .s-card--hovered .s-card__title {
   bottom: 50%;
+}
+
+.s-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+.s-card__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
 }
